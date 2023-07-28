@@ -1,0 +1,32 @@
+export declare class PetEntity {
+    id: number;
+    name: string;
+    type: string;
+    breed: string;
+    gender: string;
+    age: number;
+    description: string;
+    location: string;
+    urlImg: string;
+    state: string;
+    setType: any;
+    setBreed: any;
+    setGender: any;
+    setName: any;
+    constructor(id: number, name: string, type: string, breed: string, gender: string, age: number, description: string, location: string, urlImg: string, state: string);
+    getID(): number;
+    getType(): string;
+    getBreed(): string;
+    getName(): string;
+    getGender(): string;
+    getAge(): number;
+    getDescription(): string;
+    getLocation(): string;
+    getImg(): string;
+    getState(): string;
+    setAge(newAge: number): void;
+    setDescription(newDescription: string): void;
+    setLocation(newLocation: string): void;
+    setImg(newUrlImg: string): void;
+    setState(newState: string): void;
+}
